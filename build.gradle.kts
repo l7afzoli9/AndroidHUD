@@ -6,11 +6,3 @@ plugins {
     // Hilt plugin (applied in the app module)
     id("com.google.dagger.hilt.android") version "2.50" apply false
 }
-
-// Configure repositories for all sub‑projects
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
